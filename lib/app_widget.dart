@@ -1,3 +1,5 @@
+import 'package:cesta_brasil/cadastro_fisica.dart';
+import 'package:cesta_brasil/cadastro_institucional.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
@@ -12,6 +14,8 @@ class AppWidget extends StatelessWidget {
       routes: {
         '/': (context) => LoginPage(),
         '/home': (context) => HomePage(),
+        '/cadastroFisica': (context) => CadastroPage(),
+        '/cadastroJuridica': (context) => CadastroPageJuridica(),
       },
     );
   }

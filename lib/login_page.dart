@@ -52,7 +52,31 @@ class _LoginPageState extends State<LoginPage> {
                     }
                   },
                   child: Text('Logar'),
-                )
+                ),
+                RaisedButton(
+                  onPressed: () {
+                    if (password == '' && email == '') {
+                      Navigator.of(context)
+                          .pushReplacementNamed('/cadastroFisica');
+                      print('ok');
+                    } else {
+                      print('Erro');
+                    }
+                  },
+                  child: Text('Cadastrar'),
+                ),
+                RaisedButton(
+                  onPressed: () {
+                    if (password == '' && email == '') {
+                      Navigator.of(context)
+                          .pushReplacementNamed('/cadastroJuridica');
+                      print('ok');
+                    } else {
+                      print('Erro');
+                    }
+                  },
+                  child: Text('Cadastrar Empresa'),
+                ),
               ],
             ),
           ),
