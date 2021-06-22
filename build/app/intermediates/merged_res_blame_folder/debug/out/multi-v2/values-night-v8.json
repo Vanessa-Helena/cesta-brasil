@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/vanessa/Área de Trabalho/cesta_brasil/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/vanessa/Área de Trabalho/cesta-brasil/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/vanessa/Área de Trabalho/cesta_brasil/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/vanessa/Área de Trabalho/cesta-brasil/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
