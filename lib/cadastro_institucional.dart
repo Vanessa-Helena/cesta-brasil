@@ -80,7 +80,8 @@ class _CadastroPageJuridicaState extends State<CadastroPageJuridica> {
                 RaisedButton(
                   onPressed: () {
                     if (password != '' || email != '' || name != '') {
-                      Navigator.of(context).pushReplacementNamed('/home');
+                      Navigator.of(context)
+                          .pushReplacementNamed('/dash_instituicao');
                       print('ok');
                     } else {
                       print('Erro');

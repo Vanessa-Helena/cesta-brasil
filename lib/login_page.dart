@@ -1,4 +1,3 @@
-import 'package:cesta_brasil/home_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -42,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
                       labelText: 'Password', border: OutlineInputBorder()),
                 ),
                 SizedBox(height: 15),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     if (password != '' || email != '') {
                       Navigator.of(context).pushReplacementNamed('/home');
@@ -53,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   child: Text('Logar'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     if (password == '' && email == '') {
                       Navigator.of(context)
@@ -65,7 +64,7 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   child: Text('Cadastrar'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     if (password == '' && email == '') {
                       Navigator.of(context)

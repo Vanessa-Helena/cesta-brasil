@@ -88,7 +88,8 @@ class _CadastroPageState extends State<CadastroPage> {
                 RaisedButton(
                   onPressed: () {
                     if (password != '' || email != '' || name != '') {
-                      Navigator.of(context).pushReplacementNamed('/home');
+                      Navigator.of(context)
+                          .pushReplacementNamed('/dash_cliente');
                       print('ok');
                     } else {
                       print('Erro');
