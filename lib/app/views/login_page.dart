@@ -70,44 +70,45 @@ class _LoginPageState extends State<LoginPage> {
                           child: Text(
                             'Logar',
                             textAlign: TextAlign.center,
+                            style: TextStyle(fontSize: 23),
+                          )),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        if (password == '' && email == '') {
+                          Navigator.of(context).pushNamed('/cadastroFisica');
+                          print('ok');
+                        } else {
+                          print('Erro');
+                        }
+                      },
+                      child: Container(
+                          width: 280,
+                          child: Text(
+                            'Cadastrar Pessoa',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(fontSize: 18),
+                          )),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        if (password == '' && email == '') {
+                          Navigator.of(context).pushNamed('/cadastroJuridica');
+                          print('ok');
+                        } else {
+                          print('Erro');
+                        }
+                      },
+                      child: Container(
+                          width: 280,
+                          child: Text(
+                            'Cadastrar Empresa',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(fontSize: 18),
                           )),
                     ),
                   ]),
                 ),
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  if (password == '' && email == '') {
-                    Navigator.of(context)
-                        .pushReplacementNamed('/cadastroFisica');
-                    print('ok');
-                  } else {
-                    print('Erro');
-                  }
-                },
-                child: Container(
-                    width: 330,
-                    child: Text(
-                      'Cadastrar Pessoa',
-                      textAlign: TextAlign.center,
-                    )),
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  if (password == '' && email == '') {
-                    Navigator.of(context)
-                        .pushReplacementNamed('/cadastroJuridica');
-                    print('ok');
-                  } else {
-                    print('Erro');
-                  }
-                },
-                child: Container(
-                    width: 330,
-                    child: Text(
-                      'Cadastrar Empresa',
-                      textAlign: TextAlign.center,
-                    )),
               ),
             ],
           ),
