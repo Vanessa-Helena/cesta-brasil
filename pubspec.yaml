@@ -29,8 +29,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   
+  path:
   sqflite: ^1.1.7+3
-
   path_provider: ^1.4.5
 
 
@@ -50,14 +50,11 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-assets: 
-  - images/avatar.jpeg
-  - images/dog.jpeg
-  - images/dog.jpg
-  - images/cantor.png
+  assets:
+     - assets/images/avatar.png
+     - assets/images/fundo1.jpg
+     - assets/images/fundo2.jpg
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
