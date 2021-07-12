@@ -1,4 +1,4 @@
-#Sun Jul 11 19:39:36 BRT 2021
+#Sun Jul 11 22:10:47 BRT 2021
 base.0=/home/vanessa/Área de Trabalho/cesta-brasil/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
