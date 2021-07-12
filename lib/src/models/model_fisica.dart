@@ -1,11 +1,13 @@
 class FisicaModel {
-  String email = '';
-  String password = '';
-  String endereco = '';
-  String nascimento = '';
-  String name = '';
+  final int id;
+  final String email;
+  final int password;
+  final String endereco;
+  final int nascimento;
+  final String name;
 
   FisicaModel({
+    required this.id,
     required this.email,
     required this.password,
     required this.endereco,
@@ -15,6 +17,7 @@ class FisicaModel {
 
   Map<String, dynamic> toMap() {
     return {
+      'id': id,
       'name': name,
       'email': email,
       'endereco': endereco,

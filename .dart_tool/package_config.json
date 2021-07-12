@@ -86,6 +86,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
       "packageUri": "lib/",
@@ -93,33 +99,33 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.28",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "path_provider_macos",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+8",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "path_provider_platform_interface",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.4",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "path_provider_windows",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.5",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.11"
+      "languageVersion": "2.12"
     },
     {
       "name": "platform",
@@ -129,13 +135,19 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.12"
     },
     {
       "name": "process",
       "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -153,15 +165,15 @@
     },
     {
       "name": "sqflite",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.2+4",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+3",
       "packageUri": "lib/",
-      "languageVersion": "2.10"
+      "languageVersion": "2.12"
     },
     {
       "name": "sqflite_common",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-1.0.3+3",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.0.0+2",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.12"
     },
     {
       "name": "stack_trace",
@@ -183,9 +195,9 @@
     },
     {
       "name": "synchronized",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/synchronized-2.2.0+2",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/synchronized-3.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.8"
+      "languageVersion": "2.12"
     },
     {
       "name": "term_glyph",
@@ -219,9 +231,9 @@
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2",
+      "rootUri": "file:///home/vanessa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.12"
     },
     {
       "name": "cesta_brasil",
@@ -230,7 +242,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-11T05:46:20.431317Z",
+  "generated": "2021-07-11T20:43:58.098145Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }

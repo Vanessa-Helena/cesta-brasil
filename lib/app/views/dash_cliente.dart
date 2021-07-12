@@ -92,6 +92,14 @@ class DashClienteState extends State<DashCliente> {
                   Navigator.of(context).restorablePushReplacementNamed('/');
                 },
               ),
+              ListTile(
+                leading: Icon(Icons.settings),
+                title: Text('User'),
+                subtitle: Text('Editar'),
+                onTap: () {
+                  Navigator.of(context).restorablePushNamed('/config_user');
+                },
+              ),
             ],
           ),
         ),
