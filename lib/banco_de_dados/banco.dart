@@ -1,8 +1,6 @@
-import 'package:cesta_brasil/app/src/models/model_instituicao.dart';
+import 'package:cesta_brasil/src/models/model_instituicao.dart';
 import 'package:path/path.dart';
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:sqflite/sqflite.dart'
-    show Database, getDatabasesPath, openDatabase;
+import 'package:sqflite/sqflite.dart';
 
 import '../setting.dart';
 
